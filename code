@@ -1,3 +1,4 @@
+
 highlighted_poems = "Afterimages:Audre Lorde:1997,  
                      The Shadow:William Carlos Williams:1915, Ecstasy:Gabriela Mistral:1925,   
                        Georgia Dusk:Jean Toomer:1923,   
@@ -29,3 +30,5 @@ for poem in highlighted_poems_details:
 
 for i in range (0, len(highlighted_poems_details)):
   print(" The poem {} was published by {} in {}.".format(titles[i], poets[i],dates[i]))
+
+
